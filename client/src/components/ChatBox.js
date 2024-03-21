@@ -17,23 +17,20 @@ export default function ChatBoxReceiver({avatar, user, message}) {
              }}  
              preview={false}
         />}
-
-   />
-        
+   />  
    <p style={{padding:10, backgroundColor:'#dcf8c6', borderRadius:10, maxwidth:"60%"}}>
         <strong style={{fontSize:13}}>
               {user}
         </strong> <br></br>
         {message}
-
    </p>   
 
-     <div/>
+     </div>
     )
 }
 
-</div>export default function ChatBoxSender() {
+export default function ChatBoxSender() {
     return (
-        <div>ChatBox<div/>
+        <div>ChatBox</div>
     )
 }
