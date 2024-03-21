@@ -3,7 +3,7 @@ import {Avatar, Image} from 'antd'
 
 export default function ChatBoxReceiver({avatar, user, message}) {
     return (
-     <div style={{display: 'flex'}, justifyContent: 'flex', flexDirection: 'row'}>
+     <div style={{display: 'flex', justifyContent: 'flex', flexDirection: 'row'}}>
         <Avatar
         
         size={50}
@@ -32,8 +32,7 @@ export default function ChatBoxReceiver({avatar, user, message}) {
     )
 }
 
-
-export default function ChatBoxSender() {
+</div>export default function ChatBoxSender() {
     return (
         <div>ChatBox<div/>
     )
